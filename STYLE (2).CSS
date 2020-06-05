@@ -1,0 +1,54 @@
+
+/*1.  Give the <body> element a background of #bdc3c7*/
+body {
+	background-color: #bdc3c7;
+}
+
+/*2. Make the <h1> element #551670*/
+h1 {
+	color: #551670;
+}
+
+
+/*3. Make all inputs  have a 3px gray border*/
+
+input {
+	border: 3px solid gray;
+}
+
+/*4. Make all the <p>'s 25px font(font-size: 25px)*/
+div p {
+	font-size: 25px;
+}
+
+/*5. Make all <li> elements blue(pick your own hexadecimal blue)*/ 
+li {
+	color: #13c9fb;
+}
+
+/*6. Make all inputs have a gray background*/
+input[type=text] {
+	background-color: gray;
+}
+
+
+
+/* 7. Give the last <p>  5px white border*/
+div p:nth-of-type(2) {
+	border: 5px solid red;
+}
+
+/* 8. apply  2px border to all images */
+.img{
+border:2px dotted yellow
+}
+
+/*9. Make the <h1> element's color change to blue when hovered over */
+h1:hover {
+	color: blue;
+}
+
+/*10. Make the <a> element's that have been visited green */
+a:visited {
+	color: green;
+}
